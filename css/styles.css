@@ -66,6 +66,9 @@ ul {
 }
 
 /*----header---*/
+.header {
+  border: 1px solid #ececec;
+}
 .header-logo {
   font-family: Raleway;
   font-style: normal;
@@ -296,7 +299,9 @@ ul {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
+.site-bar-info {
+  padding-left: 215px;
+}
 .site-bar-list :not(:last-child) {
   margin-bottom: 9px;
 }
@@ -326,6 +331,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #ffffff;
+  padding-top: 60px;
   margin-bottom: 20px;
   display: inline-block;
   text-decoration: none;
@@ -384,7 +390,7 @@ ul {
   margin-left: 30px;
   margin-top: 30px;
   background-color: #fff;
-  box-shadow: var(--item-shadow);
+
   display: block;
   max-width: 100%;
 }
