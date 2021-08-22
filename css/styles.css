@@ -189,6 +189,7 @@ ul {
   display: flex;
   margin-left: -15px;
   margin-right: -15px;
+  padding-top: 94px;
 }
 
 .hero-strenghts-item {
@@ -204,6 +205,8 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .strenghts-title-description {
