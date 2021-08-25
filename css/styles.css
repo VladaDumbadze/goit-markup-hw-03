@@ -54,8 +54,12 @@ ul {
   color: var(--accent-color);
 }
 
+.header-link.current {
+  color: var(--accent-color);
+}
+
 .title {
-  font-weight: normal;
+  font-weight: 700px;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -169,6 +173,9 @@ ul {
   text-align: center;
   margin-bottom: 30px;
 }
+.hero-button:hover {
+  background-color: #188ce8;
+}
 
 .hero-button {
   font-weight: 700;
@@ -176,7 +183,7 @@ ul {
   line-height: 1.86;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   padding: 10px 32px;
   display: inline-block;
   border-radius: 4px;
@@ -201,7 +208,7 @@ ul {
 .strenghts-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -211,7 +218,7 @@ ul {
 
 .strenghts-title-description {
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -302,9 +309,7 @@ ul {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.site-bar-info {
-  padding-left: 215px;
-}
+
 .site-bar-list :not(:last-child) {
   margin-bottom: 9px;
 }
@@ -334,7 +339,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #ffffff;
-  padding-top: 60px;
   margin-bottom: 20px;
   display: inline-block;
   text-decoration: none;
